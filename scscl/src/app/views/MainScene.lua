@@ -1,5 +1,4 @@
 require("app.utils.init")
-require("app.data.init")
 require("app.control.init")
 
 require("app.views.const")
