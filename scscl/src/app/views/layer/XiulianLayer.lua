@@ -194,13 +194,13 @@ function XiulianLayer:_fireUpBodyLevel(result)
 	if ret then
 		if not self.m_bUpBody then
 			self.m_bUpBody = true
-
+			
 		end
 	else
 		--取消体质升级提示
 		if self.m_bUpBody then
 			self.m_bUpBody = false
-			
+
 		end
 	end
 end
