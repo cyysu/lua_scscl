@@ -13,6 +13,7 @@
 -- @param[loadRootCSB]                  扑克精灵
 -- @param[loadRootCSB]                  扑克精灵
 cc.exports.ww = {}
+cc.exports.scscl = {}       --本游戏全局数据表
 
 ww.SIZE = function (node)
     if not node then return nil end

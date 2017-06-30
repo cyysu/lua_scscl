@@ -9,6 +9,7 @@
         <Folder Name="ui" />
         <Image Name="1.png" />
         <Project Name="MainScene.csd" Type="Scene" />
+        <TTF Name="msyh.ttf" />
       </RootFolder>
     </Group>
   </SolutionFolder>

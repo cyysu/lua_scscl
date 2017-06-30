@@ -6,8 +6,8 @@
       <ObjectData Name="Node" Tag="131" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="bg" ActionTag="1955280630" Tag="132" IconVisible="False" LeftMargin="-320.0000" RightMargin="-320.0000" TopMargin="-640.0000" BottomMargin="-640.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
-            <Size X="640.0000" Y="1280.0000" />
+          <AbstractNodeData Name="bg" ActionTag="1955280630" VisibleForFrame="False" Tag="132" IconVisible="False" LeftMargin="-360.0000" RightMargin="-360.0000" TopMargin="-640.0000" BottomMargin="-640.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
+            <Size X="720.0000" Y="1280.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
@@ -30,84 +30,103 @@
                 <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="txt_nickName" ActionTag="496890720" Tag="136" IconVisible="False" RightMargin="-160.0000" TopMargin="20.7778" BottomMargin="-40.7778" FontSize="20" LabelText="修道者: 天下第一" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="160.0000" Y="20.0000" />
+              <AbstractNodeData Name="txt_nickName" ActionTag="496890720" Tag="136" IconVisible="False" RightMargin="-158.0000" TopMargin="18.7778" BottomMargin="-42.7778" FontSize="20" LabelText="修道者: 天下第一" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="158.0000" Y="24.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position Y="-30.7778" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="txt_state" ActionTag="631949922" Tag="142" IconVisible="False" RightMargin="-110.0000" TopMargin="51.2966" BottomMargin="-71.2966" FontSize="20" LabelText="境界： 胎息" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="110.0000" Y="20.0000" />
+              <AbstractNodeData Name="txt_state" ActionTag="631949922" Tag="142" IconVisible="False" RightMargin="-113.0000" TopMargin="49.2966" BottomMargin="-73.2966" FontSize="20" LabelText="境界： 胎息" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="113.0000" Y="24.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position Y="-61.2966" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="txt_title" ActionTag="1993922456" Tag="138" IconVisible="False" RightMargin="-150.0000" TopMargin="78.2276" BottomMargin="-98.2276" FontSize="20" LabelText="称号： 江湖小虾" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="150.0000" Y="20.0000" />
+              <AbstractNodeData Name="txt_title" ActionTag="1993922456" Tag="138" IconVisible="False" RightMargin="-153.0000" TopMargin="76.2276" BottomMargin="-100.2276" FontSize="20" LabelText="称号： 江湖小虾" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="153.0000" Y="24.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position Y="-88.2276" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="txt_upNeedExp" ActionTag="-1928594443" Tag="139" IconVisible="False" RightMargin="-170.0000" TopMargin="104.8990" BottomMargin="-124.8990" FontSize="20" LabelText="升级所需： 100000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="170.0000" Y="20.0000" />
-                <AnchorPoint ScaleY="0.5000" />
-                <Position Y="-114.8990" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="txt_secondExp" ActionTag="566011900" Tag="140" IconVisible="False" RightMargin="-140.0000" TopMargin="135.4181" BottomMargin="-155.4181" FontSize="20" LabelText="每秒提升： 100" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="140.0000" Y="20.0000" />
-                <AnchorPoint ScaleY="0.5000" />
-                <Position Y="-145.4181" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="txt_curentExp" ActionTag="1326595554" Tag="141" IconVisible="False" RightMargin="-150.0000" TopMargin="167.2190" BottomMargin="-187.2190" FontSize="20" LabelText="当前修为： 1000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="150.0000" Y="20.0000" />
+              <AbstractNodeData Name="txt_curentExp" ActionTag="1326595554" Tag="141" IconVisible="False" RightMargin="-155.0000" TopMargin="165.2190" BottomMargin="-189.2190" FontSize="20" LabelText="当前修为： 1000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="155.0000" Y="24.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position Y="-177.2190" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_xiulian" ActionTag="1293369011" Tag="134" IconVisible="False" LeftMargin="34.6075" RightMargin="-121.8579" TopMargin="195.5599" BottomMargin="-227.6348" TouchEnable="True" FontSize="24" ButtonText="修炼" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_xiulian" ActionTag="1293369011" Tag="134" IconVisible="False" LeftMargin="183.0939" RightMargin="-270.3442" TopMargin="205.2000" BottomMargin="-237.2748" TouchEnable="True" FontSize="24" ButtonText="修炼" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="87.2504" Y="32.0749" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="78.2327" Y="-211.5974" />
+                <Position X="226.7191" Y="-221.2374" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
                 <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="txt_fame" ActionTag="191181524" Tag="26" IconVisible="False" RightMargin="-115.0000" TopMargin="105.6308" BottomMargin="-129.6308" FontSize="20" LabelText="名气： 1000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="115.0000" Y="24.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position Y="-117.6308" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="txt_gold" ActionTag="538647180" Tag="27" IconVisible="False" RightMargin="-115.0000" TopMargin="132.9855" BottomMargin="-156.9855" FontSize="20" LabelText="财富： 1000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="115.0000" Y="24.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position Y="-144.9855" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="txt_life" ActionTag="-21769497" Tag="28" IconVisible="False" RightMargin="-115.0000" TopMargin="198.9085" BottomMargin="-222.9085" FontSize="20" LabelText="寿元： 1000" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="115.0000" Y="24.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <Position Y="-210.9085" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -119,49 +138,21 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="node_body" ActionTag="1056599662" Tag="145" IconVisible="True" LeftMargin="-318.5750" RightMargin="318.5750" TopMargin="-390.7921" BottomMargin="390.7921" ctype="SingleNodeObjectData">
-            <Size X="0.0000" Y="0.0000" />
-            <Children>
-              <AbstractNodeData Name="txt_bodyName" ActionTag="-1169544926" Tag="146" IconVisible="False" LeftMargin="20.6683" RightMargin="-155.0472" TopMargin="1.4617" BottomMargin="-71.1203" IsCustomSize="True" FontSize="20" LabelText="九天十地唯我独尊" HorizontalAlignmentType="HT_Center" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="134.3790" Y="69.6586" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="87.8578" Y="-36.2910" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="txt_bodyDes" ActionTag="825467848" Tag="147" IconVisible="False" LeftMargin="168.1839" RightMargin="-428.6193" TopMargin="-3.8158" BottomMargin="-77.3025" IsCustomSize="True" FontSize="20" LabelText="九天十地唯我独尊的身体当真是天下无敌啊,每次修炼居然还能附加5点" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="260.4354" Y="81.1183" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="298.4016" Y="-36.7434" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="txt_bodyUpNeed" ActionTag="1358634319" Tag="148" IconVisible="False" LeftMargin="439.8455" RightMargin="-627.7029" TopMargin="4.2760" BottomMargin="-81.5745" IsCustomSize="True" FontSize="20" LabelText="升级所需: 100万" VerticalAlignmentType="VT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="187.8574" Y="77.2984" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="533.7742" Y="-42.9253" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-            </Children>
-            <AnchorPoint />
-            <Position X="-318.5750" Y="390.7921" />
+          <AbstractNodeData Name="btn_body" ActionTag="-1812762114" Tag="30" IconVisible="False" LeftMargin="-291.9343" RightMargin="208.6470" TopMargin="-402.4055" BottomMargin="329.3282" TouchEnable="True" FontSize="14" ButtonText="不灭体一重" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="83.2873" Y="73.0773" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-250.2906" Y="365.8669" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="0" G="0" B="255" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
           <AbstractNodeData Name="test1" ActionTag="518718155" Tag="155" IconVisible="False" LeftMargin="118.4461" RightMargin="-164.4461" TopMargin="-550.1293" BottomMargin="514.1293" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="46.0000" Y="36.0000" />
@@ -258,6 +249,86 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_baishi" ActionTag="1276890610" Tag="31" IconVisible="False" LeftMargin="-307.4049" RightMargin="218.9512" TopMargin="-142.1372" BottomMargin="97.0400" TouchEnable="True" FontSize="14" ButtonText="拜师求艺" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="88.4537" Y="45.0972" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-263.1780" Y="119.5886" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_xunbao" ActionTag="-1069731105" Tag="32" IconVisible="False" LeftMargin="-194.3041" RightMargin="105.8504" TopMargin="-142.7509" BottomMargin="97.6537" TouchEnable="True" FontSize="14" ButtonText="寻找机缘" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="88.4537" Y="45.0972" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-150.0772" Y="120.2023" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_xxqk" ActionTag="249176851" Tag="33" IconVisible="False" LeftMargin="181.1005" RightMargin="-269.5542" TopMargin="-141.8482" BottomMargin="96.7509" TouchEnable="True" FontSize="14" ButtonText="袖里乾坤" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="88.4537" Y="45.0972" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="225.3274" Y="119.2996" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_xxdf" ActionTag="1854981955" Tag="34" IconVisible="False" LeftMargin="53.1257" RightMargin="-141.5794" TopMargin="-140.9460" BottomMargin="95.8487" TouchEnable="True" FontSize="14" ButtonText="随机修习道法" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="88.4537" Y="45.0972" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="97.3526" Y="118.3974" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="btn_jianbao" ActionTag="71688644" Tag="35" IconVisible="False" LeftMargin="-67.2679" RightMargin="-21.1858" TopMargin="-141.5598" BottomMargin="96.4626" TouchEnable="True" FontSize="14" ButtonText="鉴宝" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="88.4537" Y="45.0972" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-23.0410" Y="119.0112" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
