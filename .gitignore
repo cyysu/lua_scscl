@@ -1,0 +1,6 @@
+scscl/frameworks/
+
+scscl/luaTest.pdb
+scscl/*.dll
+scscl/luaTest.ilk
+scscl/scscl.exe
