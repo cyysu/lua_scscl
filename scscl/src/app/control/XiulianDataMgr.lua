@@ -1,27 +1,24 @@
-local data_body = require("app.data.data_body")
-
-
-local BodyItem = require('app.modules.BodyItem')
-local LevelItem = require('app.modules.LevelItem')
-
-
 
 local SkillMgr = import(".data_mgr.SkillMgr")
 local XinfaMgr = import(".data_mgr.XinfaMgr")
 local LevelMgr = import(".data_mgr.LevelMgr")
+local BodyMgr = import(".data_mgr.BodyMgr")
 
 local FameMgr = import(".data_mgr.FameMgr")
 local GoldMgr = import(".data_mgr.GoldMgr")
 local LifeMgr = import(".data_mgr.LifeMgr")
 
+local TipsMgr = import(".data_mgr.TipsMgr")
+local RecordMgr = import(".data_mgr.RecordMgr")
+
 local XiulianData = class("XiulianData")
 
 function XiulianData:ctor()
+	math.randomseed(os.time())
 	--技能管理
 	self.m_cSkillMgr = SkillMgr.new()
 	--身体等级管理
-	self.m_dBodyData = {}
-	self.m_dBodyLevel = 0			--身体等级
+	self.m_cBodyMgr = BodyMgr.new()
 	--境界管理
 	self.m_cLevelMgr = LevelMgr.new()
 	--心法管理
@@ -32,6 +29,10 @@ function XiulianData:ctor()
 	self.m_cGoldMgr = GoldMgr.new()
 	--寿元管理
 	self.m_cLifeMgr = LifeMgr.new()
+	--小提示管理
+	self.m_cTipsMgr = TipsMgr.new()
+	--消息关系(记录信息)
+	self.m_cRecordMgr = RecordMgr.new()
 
 	self.m_cSchedule = ww.CSchedule.new(1, 0) 		--1s的schedule
 	self.m_cSchedule:setScheduleListener(handler(self, self._updateListener))
@@ -53,13 +54,7 @@ function XiulianData:stop()
 end
 
 function XiulianData:_load()
-	self:_loadBodyData()
-end
-
-function XiulianData:_loadBodyData()
-	for idx,data in pairs(data_body) do
-		self.m_dBodyData[data.level] = BodyItem.new(data)
-	end
+	
 end
 
 
@@ -67,10 +62,12 @@ function XiulianData:_updateListener(dt)
 	self.m_cFameMgr:updateFame(dt)
 	self.m_cGoldMgr:updateGold(dt)
 	self.m_cLifeMgr:updateLife(dt)
+	self.m_cTipsMgr:updateTips(dt)
 end
 
 function XiulianData:_updateExpListener(dt)
 	self.m_cLevelMgr:updateXiulian(dt)
+	self.m_cBodyMgr:updateBody(dt)
 end
 --[[
 	*名气管理 began
@@ -104,25 +101,13 @@ function XiulianData:updateAutoOnceAddExp(exp)
 end
 
 --[[
-	*境界等级管理 began
+	*境界等级管理 end
 	*同属性只能修习一本 
 ]]
 
 --提升身体等级(暂时只能提升每次修炼的基数)
 function XiulianData:upBodyLevel()
-	self.m_dBodyLevel = self.m_dBodyLevel + 1
-	self.m_cLevelMgr:updateOnceAddExp(self.m_dBodyData[self.m_dBodyLevel]:getAdditonalExp())
-end
-
---检测是否可以升级体质
-function XiulianData:checkUpBoyLevel()
-	local nextNeed = self.m_dBodyData[self.m_dBodyLevel + 1]
-	if self.m_cLevelMgr:getCurrentExp() >= nextNeed then
-		--可以升级身体
-		GlobalEvent:fireEvent(GlobalEventIds.kXLIsUpBody, {data = true})
-	else
-		GlobalEvent:fireEvent(GlobalEventIds.kXLIsUpBody, {data = false})
-	end
+	self.m_cBodyMgr:upBodyLevel()
 end
 
 --[[
@@ -156,13 +141,16 @@ end
 ]]
 
 --get / set
---获取当前身体等级的数据
-function XiulianData:getCurrentBodyData()
-	return self.m_dBodyData[self.m_dBodyLevel]
-end
-
 function XiulianData:getXinfaMgr()
 	return self.m_cXinfaMgr
+end
+
+function XiulianData:getRecordMgr()
+	return self.m_cRecordMgr
+end
+
+function XiulianData:getLevelMgr()
+	return self.m_cLevelMgr
 end
 
 cc.exports.XiulianDataMgr = XiulianData.new()

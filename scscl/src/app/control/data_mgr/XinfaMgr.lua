@@ -18,27 +18,54 @@ function XinfaMgr:_init()
 end
 
 --随机一本心法(排除同属性)
-function XinfaMgr:randXinfa()
-	local xfs = {}
-	for _,item in pairs(self.m_dData) do
-		local xfStyle = item:getStyle()
-		local ret = true
-		for style,v in pairs(self.m_dMines) do
-			if style == xfStyle then
-				break
-			end
+function XinfaMgr:_randXinfa()
+	-- for _,item in pairs(self.m_dData) do
+	-- 	local xfStyle = item:getStyle()
+	-- 	local ret = true
+	-- 	for style,v in pairs(self.m_dMines) do
+	-- 		if style == xfStyle then
+	-- 			ret = false
+	-- 		end
+	-- 	end
+	-- 	if ret then
+	-- 		return item
+	-- 	end
+	-- end
+	local idx = math.random(1, #self.m_dData)
+	local xfItem = self.m_dData[idx]
+	for style,v in pairs(self.m_dMines) do
+		if style == xfItem:getStyle() then
+			return false
 		end
-		return item
 	end
+	return xfItem
 end
 
 function XinfaMgr:addXinfa(xfItem)
-	self.m_dMines[xfItem:getStyle()] = {level = 1, id = xfItem:getId()}
-	XiulianDataMgr:updateAutoOnceAddExp(xfItem:getExpAddByLevel(1))
+	local xfItem = self:_randXinfa()
+	dump(xfItem)
+	if xfItem then
+		self.m_dMines[xfItem:getStyle()] = {level = 1, id = xfItem:getId()}
+		--学习的心法对修炼的加成
+		XiulianDataMgr:updateAutoOnceAddExp(xfItem:getExpAddByLevel(1))
+		--添加一条记录
+		XiulianDataMgr:getRecordMgr():addMessage("您修习了心法: " .. xfItem:getName())
+		--通知界面学习了一种心法
+		GlobalEvent:fireEvent(GlobalEventIds.kXLXinfa, {data = xfItem:getStyle(), add = true})
+	else
+		--学习到了同属性心法
+		XiulianDataMgr:getRecordMgr():addMessage("您不能修习同属性的心法!")
+	end
 end
 
 function XinfaMgr:removeXinfa(xfStyle)
+	local xfItem = self.m_dData[self.m_dMines[xfStyle].id]
+	if xfItem then
+		--添加一条记录
+		XiulianDataMgr:getRecordMgr():addMessage("您废弃了心法: " .. xfItem:getName())
+	end
 	self.m_dMines[xfStyle] = nil
+	GlobalEvent:fireEvent(GlobalEventIds.kXLXinfa, {data = xfItem:getStyle(), remove = true})
 end
 
 function XinfaMgr:upXinfaLevel(xfStyle)
@@ -51,6 +78,11 @@ function XinfaMgr:upXinfaLevel(xfStyle)
 		XiulianDataMgr:updateAutoOnceAddExp(xfitem:getExpAddByLevel(level))
 		self.m_dMines[xfStyle] = xf
 	end
+end
+
+--金木水火土 5种（1，2，3，4，5）
+function XinfaMgr:getMineXinfaByIdx(idx)
+	return self.m_dMines[idx]
 end
 
 function XinfaMgr:getXinfaNum()

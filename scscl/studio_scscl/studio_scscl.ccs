@@ -3,10 +3,39 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
+        <Folder Name="Actions">
+          <Folder Name="xl_layer">
+            <Folder Name="7763">
+              <PlistInfo Name="7763.csi" Type="Plist" />
+              <Image Name="7763-1.png" />
+              <Image Name="7763-10.png" />
+              <Image Name="7763-11.png" />
+              <Image Name="7763-12.png" />
+              <Image Name="7763-2.png" />
+              <Image Name="7763-3.png" />
+              <Image Name="7763-4.png" />
+              <Image Name="7763-5.png" />
+              <Image Name="7763-6.png" />
+              <Image Name="7763-7.png" />
+              <Image Name="7763-8.png" />
+              <Image Name="7763-9.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="backgound">
+          <Image Name="bg_xiulian.jpg" />
+        </Folder>
         <Folder Name="csb">
+          <Project Name="DaoFaItem.csd" Type="Node" />
+          <Project Name="DaoFaListUi.csd" Type="Node" />
+          <Project Name="RecordListUi.csd" Type="Node" />
           <Project Name="Xiulian.csd" Type="Node" />
         </Folder>
-        <Folder Name="ui" />
+        <Folder Name="ui">
+          <Folder Name="record_list_ui">
+            <Image Name="bg.png" />
+          </Folder>
+        </Folder>
         <Image Name="1.png" />
         <Project Name="MainScene.csd" Type="Scene" />
         <TTF Name="msyh.ttf" />

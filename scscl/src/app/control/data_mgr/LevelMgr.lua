@@ -54,6 +54,7 @@ function LevelMgr:_checkFame()
 				local levelItem = self.m_dData[level]
 				ww.printfd("current nickname is ", levelItem:getName())
 				GlobalEvent:fireEvent(GlobalEventIds.kXLXwName, {data = levelItem:getName()})
+				XiulianDataMgr:getRecordMgr():addMessage("您的等级提升到了" .. levelItem:getName())
 			end
 		end
 		local need = self.m_dData[i]:getNeeds()
@@ -90,6 +91,10 @@ end
 --更新每秒自动修炼的值
 function LevelMgr:updateAutoOnceAddExp(exp)
 	self.m_dAutoOnceAddExp = self.m_dAutoOnceAddExp + exp
+end
+
+function LevelMgr:updateCurrentExp(exp)
+	self.m_dCurrentExp = self.m_dCurrentExp + exp
 end
 
 --get / set

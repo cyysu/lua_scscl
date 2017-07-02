@@ -29,8 +29,8 @@ end
 --获取坐标位置函数
 ww.X = function (node) if not node then return nil end return node:getPositionX(); end
 ww.Y = function (node) if not node then return nil end return node:getPositionY(); end
-ww.W = function (node) if not node then return nil end  return SIZE(node).width; end
-ww.H = function (node) if not node then return nil end  return SIZE(node).height; end
+ww.W = function (node) if not node then return nil end  return ww.SIZE(node).width; end
+ww.H = function (node) if not node then return nil end  return ww.SIZE(node).height; end
 
 ww.printfd = function (fmt, ...)
     if type(DEBUG) ~= "number" or DEBUG < 2 then return end

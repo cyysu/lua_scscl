@@ -6,6 +6,11 @@ cc.exports.GlobalEventIds = {
 	kXLLife = "kXLLife", 					--当前寿元(显示在修炼主层)
 	kXLXwName = "kXLXwName", 				--当前境界名称(显示在修炼主层)
 	kXLIsUpBody = "kXLIsUpBody", 			--是否可以提升身体等级(显示在修炼主层)
+	kXLUpBody = "kXLUpBody", 				--体质升级(显示在修炼主层)
+	kXLXinfa = "kXLXinfa", 					--心法(显示在修炼主层)
+
+	kMsMinTip = "kMsMinTip", 				--小提示（场景）
+	kRecordMgs = "kRecordMgs", 				--记录信息
 }
 
 local GlobalEvent = class("GlobalEvent", require("app.modules.DataEventManager"))

@@ -48,6 +48,8 @@ end
 
 --根据等级获取当前对修为的附加
 function XinFaItem:getExpAddByLevel(level)
+	print(self.m_dExpAdds[level])
+	dump(self.m_dExpAdds)
 	return tonumber(self.m_dExpAdds[level])
 end
 

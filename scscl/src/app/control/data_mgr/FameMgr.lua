@@ -62,7 +62,7 @@ function FameMgr:_checkFame()
 				local fameItem = self.m_dData[i]
 				ww.printfd("current fame is ", fameItem:getZDName())
 				GlobalEvent:fireEvent(GlobalEventIds.kXLTitle, {data = fameItem:getZDName()})
-				
+				XiulianDataMgr:getRecordMgr():addMessage("您的称号提升了: " .. fameItem:getZDName())
 			end
 			return 
 		end

@@ -6,7 +6,7 @@
       <ObjectData Name="Node" Tag="131" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="bg" ActionTag="1955280630" VisibleForFrame="False" Tag="132" IconVisible="False" LeftMargin="-360.0000" RightMargin="-360.0000" TopMargin="-640.0000" BottomMargin="-640.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="bg" CanEdit="False" ActionTag="1955280630" Tag="132" IconVisible="False" LeftMargin="-360.0000" RightMargin="-360.0000" TopMargin="-640.0000" BottomMargin="-640.0000" LeftEage="237" RightEage="237" TopEage="422" BottomEage="422" Scale9OriginX="237" Scale9OriginY="422" Scale9Width="246" Scale9Height="436" ctype="ImageViewObjectData">
             <Size X="720.0000" Y="1280.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position />
@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
+            <FileData Type="Normal" Path="backgound/bg_xiulian.jpg" Plist="" />
           </AbstractNodeData>
           <AbstractNodeData Name="node_info" ActionTag="-1389149547" Tag="137" IconVisible="True" LeftMargin="-318.3900" RightMargin="318.3900" TopMargin="-637.7352" BottomMargin="637.7352" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
@@ -78,7 +78,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_xiulian" ActionTag="1293369011" Tag="134" IconVisible="False" LeftMargin="183.0939" RightMargin="-270.3442" TopMargin="205.2000" BottomMargin="-237.2748" TouchEnable="True" FontSize="24" ButtonText="修炼" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_xiulian" ActionTag="1293369011" Tag="134" IconVisible="False" LeftMargin="183.0939" RightMargin="-270.3443" TopMargin="205.2000" BottomMargin="-237.2748" TouchEnable="True" FontSize="24" ButtonText="修炼" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="87.2504" Y="32.0749" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="226.7191" Y="-221.2374" />
@@ -138,7 +138,7 @@
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_body" ActionTag="-1812762114" Tag="30" IconVisible="False" LeftMargin="-291.9343" RightMargin="208.6470" TopMargin="-402.4055" BottomMargin="329.3282" TouchEnable="True" FontSize="14" ButtonText="不灭体一重" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="btn_body" ActionTag="-1812762114" Tag="30" IconVisible="False" LeftMargin="-291.9343" RightMargin="208.6470" TopMargin="-402.4056" BottomMargin="329.3282" TouchEnable="True" FontSize="24" ButtonText="凡体" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="83.2873" Y="73.0773" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="-250.2906" Y="365.8669" />
@@ -184,151 +184,115 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="node_xinfa" ActionTag="-1499670860" Tag="157" IconVisible="True" LeftMargin="-309.2996" RightMargin="309.2996" TopMargin="-264.7368" BottomMargin="264.7368" ctype="SingleNodeObjectData">
-            <Size X="0.0000" Y="0.0000" />
-            <Children>
-              <AbstractNodeData Name="sp_xinfa1" ActionTag="331799521" Tag="163" IconVisible="False" LeftMargin="-0.3417" RightMargin="-99.6583" TopMargin="-6.0708" BottomMargin="-93.9292" ctype="SpriteObjectData">
-                <Size X="100.0000" Y="100.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="49.6583" Y="-43.9292" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="sp_xinfa2" ActionTag="-252698810" Tag="164" IconVisible="False" LeftMargin="112.7948" RightMargin="-212.7948" TopMargin="-7.5302" BottomMargin="-92.4698" ctype="SpriteObjectData">
-                <Size X="100.0000" Y="100.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="162.7948" Y="-42.4698" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="sp_xinfa3" ActionTag="1732747170" Tag="165" IconVisible="False" LeftMargin="227.8412" RightMargin="-327.8412" TopMargin="-8.9897" BottomMargin="-91.0103" ctype="SpriteObjectData">
-                <Size X="100.0000" Y="100.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="277.8412" Y="-41.0103" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="sp_xinfa4" ActionTag="-615802566" Tag="166" IconVisible="False" LeftMargin="350.5272" RightMargin="-450.5272" TopMargin="-6.6293" BottomMargin="-93.3707" ctype="SpriteObjectData">
-                <Size X="100.0000" Y="100.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="400.5272" Y="-43.3707" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="sp_xinfa5" ActionTag="920401777" Tag="167" IconVisible="False" LeftMargin="471.3032" RightMargin="-571.3032" TopMargin="-6.1788" BottomMargin="-93.8212" ctype="SpriteObjectData">
-                <Size X="100.0000" Y="100.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="521.3032" Y="-43.8212" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition />
-                <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-            </Children>
-            <AnchorPoint />
-            <Position X="-309.2996" Y="264.7368" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition />
-            <PreSize X="0.0000" Y="0.0000" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="btn_baishi" ActionTag="1276890610" Tag="31" IconVisible="False" LeftMargin="-307.4049" RightMargin="218.9512" TopMargin="-142.1372" BottomMargin="97.0400" TouchEnable="True" FontSize="14" ButtonText="拜师求艺" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="88.4537" Y="45.0972" />
+          <AbstractNodeData Name="Sprite_1" ActionTag="1920435570" Tag="73" IconVisible="False" LeftMargin="-258.3752" RightMargin="212.3752" TopMargin="-264.1042" BottomMargin="218.1042" ctype="SpriteObjectData">
+            <Size X="46.0000" Y="46.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-263.1780" Y="119.5886" />
+            <Position X="-235.3752" Y="241.1042" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_xunbao" ActionTag="-1069731105" Tag="32" IconVisible="False" LeftMargin="-194.3041" RightMargin="105.8504" TopMargin="-142.7509" BottomMargin="97.6537" TouchEnable="True" FontSize="14" ButtonText="寻找机缘" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="88.4537" Y="45.0972" />
+          <AbstractNodeData Name="sp_xinfa1" ActionTag="331799521" Tag="163" IconVisible="False" LeftMargin="-285.3748" RightMargin="185.3748" TopMargin="-291.1048" BottomMargin="191.1048" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-150.0772" Y="120.2023" />
+            <Position X="-235.3748" Y="241.1048" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <FileData Type="Normal" Path="1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_xxqk" ActionTag="249176851" Tag="33" IconVisible="False" LeftMargin="181.1005" RightMargin="-269.5542" TopMargin="-141.8482" BottomMargin="96.7509" TouchEnable="True" FontSize="14" ButtonText="袖里乾坤" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="88.4537" Y="45.0972" />
+          <AbstractNodeData Name="Sprite_2" ActionTag="-1130918311" Tag="74" IconVisible="False" LeftMargin="-145.2451" RightMargin="99.2451" TopMargin="-265.5639" BottomMargin="219.5639" ctype="SpriteObjectData">
+            <Size X="46.0000" Y="46.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="225.3274" Y="119.2996" />
+            <Position X="-122.2451" Y="242.5639" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_xxdf" ActionTag="1854981955" Tag="34" IconVisible="False" LeftMargin="53.1257" RightMargin="-141.5794" TopMargin="-140.9460" BottomMargin="95.8487" TouchEnable="True" FontSize="14" ButtonText="随机修习道法" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="88.4537" Y="45.0972" />
+          <AbstractNodeData Name="sp_xinfa2" ActionTag="-252698810" Tag="164" IconVisible="False" LeftMargin="-172.2394" RightMargin="72.2394" TopMargin="-292.5640" BottomMargin="192.5640" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="97.3526" Y="118.3974" />
+            <Position X="-122.2394" Y="242.5640" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <FileData Type="Normal" Path="1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="btn_jianbao" ActionTag="71688644" Tag="35" IconVisible="False" LeftMargin="-67.2679" RightMargin="-21.1858" TopMargin="-141.5598" BottomMargin="96.4626" TouchEnable="True" FontSize="14" ButtonText="鉴宝" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="88.4537" Y="45.0972" />
+          <AbstractNodeData Name="Sprite_3" ActionTag="-696271750" Tag="75" IconVisible="False" LeftMargin="-30.1959" RightMargin="-15.8041" TopMargin="-267.0242" BottomMargin="221.0242" ctype="SpriteObjectData">
+            <Size X="46.0000" Y="46.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-23.0410" Y="119.0112" />
+            <Position X="-7.1959" Y="244.0242" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FontResource Type="Normal" Path="msyh.ttf" Plist="" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="sp_xinfa3" ActionTag="1732747170" Tag="165" IconVisible="False" LeftMargin="-57.1940" RightMargin="-42.8060" TopMargin="-294.0238" BottomMargin="194.0238" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-7.1940" Y="244.0238" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_4" ActionTag="-1978988265" Tag="76" IconVisible="False" LeftMargin="92.4943" RightMargin="-138.4943" TopMargin="-264.6636" BottomMargin="218.6636" ctype="SpriteObjectData">
+            <Size X="46.0000" Y="46.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="115.4943" Y="241.6636" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="sp_xinfa4" ActionTag="-615802566" Tag="166" IconVisible="False" LeftMargin="65.4921" RightMargin="-165.4921" TopMargin="-291.6635" BottomMargin="191.6635" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="115.4921" Y="241.6635" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Sprite_5" ActionTag="-116444013" Tag="77" IconVisible="False" LeftMargin="213.2700" RightMargin="-259.2700" TopMargin="-264.2100" BottomMargin="218.2100" ctype="SpriteObjectData">
+            <Size X="46.0000" Y="46.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="236.2700" Y="241.2100" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="sp_xinfa5" ActionTag="920401777" Tag="167" IconVisible="False" LeftMargin="186.2673" RightMargin="-286.2673" TopMargin="-291.2129" BottomMargin="191.2129" ctype="SpriteObjectData">
+            <Size X="100.0000" Y="100.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="236.2673" Y="241.2129" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="1.png" Plist="" />
+            <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
