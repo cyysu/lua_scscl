@@ -3,40 +3,209 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="Actions">
-          <Folder Name="xl_layer">
-            <Folder Name="7763">
-              <PlistInfo Name="7763.csi" Type="Plist" />
-              <Image Name="7763-1.png" />
-              <Image Name="7763-10.png" />
-              <Image Name="7763-11.png" />
-              <Image Name="7763-12.png" />
-              <Image Name="7763-2.png" />
-              <Image Name="7763-3.png" />
-              <Image Name="7763-4.png" />
-              <Image Name="7763-5.png" />
-              <Image Name="7763-6.png" />
-              <Image Name="7763-7.png" />
-              <Image Name="7763-8.png" />
-              <Image Name="7763-9.png" />
+        <Folder Name="background">
+          <Image Name="background_01.png" />
+        </Folder>
+        <Folder Name="fabao">
+          <PlistInfo Name="fabao.csi" Type="Plist" />
+          <Image Name="fb (1).png" />
+          <Image Name="fb (10).png" />
+          <Image Name="fb (11).png" />
+          <Image Name="fb (12).png" />
+          <Image Name="fb (13).png" />
+          <Image Name="fb (14).png" />
+          <Image Name="fb (15).png" />
+          <Image Name="fb (16).png" />
+          <Image Name="fb (17).png" />
+          <Image Name="fb (18).png" />
+          <Image Name="fb (19).png" />
+          <Image Name="fb (2).png" />
+          <Image Name="fb (20).png" />
+          <Image Name="fb (21).png" />
+          <Image Name="fb (22).png" />
+          <Image Name="fb (23).png" />
+          <Image Name="fb (24).png" />
+          <Image Name="fb (25).png" />
+          <Image Name="fb (26).png" />
+          <Image Name="fb (27).png" />
+          <Image Name="fb (28).png" />
+          <Image Name="fb (29).png" />
+          <Image Name="fb (3).png" />
+          <Image Name="fb (30).png" />
+          <Image Name="fb (31).png" />
+          <Image Name="fb (32).png" />
+          <Image Name="fb (33).png" />
+          <Image Name="fb (34).png" />
+          <Image Name="fb (35).png" />
+          <Image Name="fb (36).png" />
+          <Image Name="fb (37).png" />
+          <Image Name="fb (38).png" />
+          <Image Name="fb (39).png" />
+          <Image Name="fb (4).png" />
+          <Image Name="fb (40).png" />
+          <Image Name="fb (41).png" />
+          <Image Name="fb (42).png" />
+          <Image Name="fb (43).png" />
+          <Image Name="fb (44).png" />
+          <Image Name="fb (45).png" />
+          <Image Name="fb (46).png" />
+          <Image Name="fb (47).png" />
+          <Image Name="fb (48).png" />
+          <Image Name="fb (49).png" />
+          <Image Name="fb (5).png" />
+          <Image Name="fb (50).png" />
+          <Image Name="fb (51).png" />
+          <Image Name="fb (52).png" />
+          <Image Name="fb (53).png" />
+          <Image Name="fb (54).png" />
+          <Image Name="fb (55).png" />
+          <Image Name="fb (56).png" />
+          <Image Name="fb (57).png" />
+          <Image Name="fb (58).png" />
+          <Image Name="fb (59).png" />
+          <Image Name="fb (6).png" />
+          <Image Name="fb (60).png" />
+          <Image Name="fb (61).png" />
+          <Image Name="fb (7).png" />
+          <Image Name="fb (8).png" />
+          <Image Name="fb (9).png" />
+        </Folder>
+        <Folder Name="main_layer">
+          <Folder Name="Bag">
+            <PlistInfo Name="bag.csi" Type="Plist" />
+            <Image Name="bt_add.png" />
+            <Image Name="bt_min.png" />
+            <Image Name="cbt_0_0.png" />
+            <Image Name="cbt_0_1.png" />
+            <Image Name="cbt_1_0.png" />
+            <Image Name="cbt_1_1.png" />
+            <Image Name="cbt_2_0.png" />
+            <Image Name="cbt_2_1.png" />
+            <Image Name="cbt_3_0.png" />
+            <Image Name="cbt_3_1.png" />
+            <Image Name="frame_1.png" />
+            <Image Name="frame_2.png" />
+            <Image Name="frame_3.png" />
+            <Image Name="frame_5.png" />
+          </Folder>
+          <Folder Name="body">
+            <PlistInfo Name="body.csi" Type="Plist" />
+            <Image Name="body_1.png" />
+            <Image Name="body_2.png" />
+            <Image Name="body_3.png" />
+            <Image Name="body_4.png" />
+            <Image Name="body_5.png" />
+            <Image Name="body_6.png" />
+            <Image Name="body_7.png" />
+          </Folder>
+          <Folder Name="csb">
+            <Folder Name="bag">
+              <Project Name="KnapSackNode.csd" Type="Node" />
             </Folder>
+            <Project Name="TopCommon.csd" Type="Node" />
+            <Project Name="ChatNode.csd" Type="Node" />
+          </Folder>
+          <Folder Name="loadbar">
+            <Image Name="au_progress_bar.png" />
+            <Image Name="au_progress_bg.png" />
+            <Image Name="dailycrazy_progressbar.png" />
+            <Image Name="dailycrazy_progressbar2.png" />
+            <Image Name="equipped_strengthen_modify02.png" />
+            <Image Name="equipped_strengthen_modify03.png" />
+            <Image Name="mainui_hp_bar.png" />
+            <Image Name="monsterlife2.png" />
+            <Image Name="monsterlife3.png" />
+            <Image Name="newshuxing_1.png" />
+            <Image Name="newshuxing_2.png" />
+            <Image Name="newshuxing_3.png" />
+            <PlistInfo Name="loadbar.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="top_common">
+            <Image Name="frame_4.png" />
+            <Image Name="title_bag.png" />
+          </Folder>
+          <Image Name="bt_record_1.png" />
+          <Image Name="bt_record_2.png" />
+          <Image Name="firpiont_btn_gray.png" />
+          <Image Name="firpiont_btn_normal.png" />
+          <PlistInfo Name="main_layer.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="player">
+          <Folder Name="fs">
+            <PlistInfo Name="fs.csi" Type="Plist" />
+            <Image Name="player4_1.png" />
+            <Image Name="player4_2.png" />
+            <Image Name="player4_3.png" />
+            <Image Name="player4_4.png" />
+            <Image Name="player4_5.png" />
+            <Image Name="player4_6.png" />
+            <Image Name="profession_fs_1.png" />
+            <Image Name="profession_fs_2.png" />
+            <Image Name="profession_fs_3.png" />
+            <Image Name="profession_fs_4.png" />
+            <Image Name="profession_fs_5.png" />
+            <Image Name="profession_fs_6.png" />
+          </Folder>
+          <Folder Name="qs">
+            <Image Name="player3_1.png" />
+            <Image Name="player3_2.png" />
+            <Image Name="player3_3.png" />
+            <Image Name="player3_4.png" />
+            <Image Name="player3_5.png" />
+            <Image Name="player3_6.png" />
+            <Image Name="profession_sq_1.png" />
+            <Image Name="profession_sq_2.png" />
+            <Image Name="profession_sq_3.png" />
+            <Image Name="profession_sq_4.png" />
+            <Image Name="profession_sq_5.png" />
+            <Image Name="profession_sq_6.png" />
+          </Folder>
+          <Folder Name="sm">
+            <Image Name="player2_1.png" />
+            <Image Name="player2_2.png" />
+            <Image Name="player2_3.png" />
+            <Image Name="player2_4.png" />
+            <Image Name="player2_5.png" />
+            <Image Name="player2_6.png" />
+            <Image Name="profession_sm_1.png" />
+            <Image Name="profession_sm_2.png" />
+            <Image Name="profession_sm_3.png" />
+            <Image Name="profession_sm_4.png" />
+            <Image Name="profession_sm_5.png" />
+            <Image Name="profession_sm_6.png" />
+          </Folder>
+          <Folder Name="zs">
+            <Image Name="player1_1.png" />
+            <Image Name="player1_2.png" />
+            <Image Name="player1_3.png" />
+            <Image Name="player1_4.png" />
+            <Image Name="player1_5.png" />
+            <Image Name="player1_6.png" />
+            <Image Name="profession_zs_1.png" />
+            <Image Name="profession_zs_2.png" />
+            <Image Name="profession_zs_3.png" />
+            <Image Name="profession_zs_4.png" />
+            <Image Name="profession_zs_5.png" />
+            <Image Name="profession_zs_6.png" />
           </Folder>
         </Folder>
-        <Folder Name="backgound">
-          <Image Name="bg_xiulian.jpg" />
+        <Folder Name="xf_icon">
+          <PlistInfo Name="xf.csi" Type="Plist" />
+          <Image Name="xf_0.png" />
+          <Image Name="xf_1.png" />
+          <Image Name="xf_2.png" />
+          <Image Name="xf_3.png" />
+          <Image Name="xf_4.png" />
+          <Image Name="xf_5.png" />
+          <Image Name="xf_6.png" />
+          <Image Name="xifa_non.png" />
+          <Image Name="xinfa_lv_1.png" />
+          <Image Name="xinfa_lv_2.png" />
+          <Image Name="xinfa_lv_3.png" />
+          <Image Name="xinfa_lv_4.png" />
+          <Image Name="xinfa_lv_5.png" />
+          <Image Name="xinfa_lv_6.png" />
         </Folder>
-        <Folder Name="csb">
-          <Project Name="DaoFaItem.csd" Type="Node" />
-          <Project Name="DaoFaListUi.csd" Type="Node" />
-          <Project Name="RecordListUi.csd" Type="Node" />
-          <Project Name="Xiulian.csd" Type="Node" />
-        </Folder>
-        <Folder Name="ui">
-          <Folder Name="record_list_ui">
-            <Image Name="bg.png" />
-          </Folder>
-        </Folder>
-        <Image Name="1.png" />
         <Project Name="MainScene.csd" Type="Scene" />
         <TTF Name="msyh.ttf" />
       </RootFolder>

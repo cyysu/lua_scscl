@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="bag" Type="Plist" ID="2eb6a660-c30e-4184-a55d-ad485eb310a1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="main_layer/Bag/bt_add.png" />
+      <FilePathData Path="main_layer/Bag/bt_min.png" />
+      <FilePathData Path="main_layer/Bag/cbt_0_0.png" />
+      <FilePathData Path="main_layer/Bag/cbt_0_1.png" />
+      <FilePathData Path="main_layer/Bag/cbt_1_0.png" />
+      <FilePathData Path="main_layer/Bag/cbt_1_1.png" />
+      <FilePathData Path="main_layer/Bag/cbt_2_0.png" />
+      <FilePathData Path="main_layer/Bag/cbt_2_1.png" />
+      <FilePathData Path="main_layer/Bag/cbt_3_0.png" />
+      <FilePathData Path="main_layer/Bag/cbt_3_1.png" />
+      <FilePathData Path="main_layer/Bag/frame_3.png" />
+      <FilePathData Path="main_layer/Bag/frame_5.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

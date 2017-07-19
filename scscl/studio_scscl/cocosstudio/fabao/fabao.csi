@@ -1,0 +1,69 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="fabao" Type="Plist" ID="a987cf9b-221b-4769-9051-00fe2c118374" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="fabao/fb (1).png" />
+      <FilePathData Path="fabao/fb (10).png" />
+      <FilePathData Path="fabao/fb (11).png" />
+      <FilePathData Path="fabao/fb (12).png" />
+      <FilePathData Path="fabao/fb (13).png" />
+      <FilePathData Path="fabao/fb (14).png" />
+      <FilePathData Path="fabao/fb (15).png" />
+      <FilePathData Path="fabao/fb (16).png" />
+      <FilePathData Path="fabao/fb (17).png" />
+      <FilePathData Path="fabao/fb (18).png" />
+      <FilePathData Path="fabao/fb (19).png" />
+      <FilePathData Path="fabao/fb (20).png" />
+      <FilePathData Path="fabao/fb (21).png" />
+      <FilePathData Path="fabao/fb (22).png" />
+      <FilePathData Path="fabao/fb (23).png" />
+      <FilePathData Path="fabao/fb (24).png" />
+      <FilePathData Path="fabao/fb (25).png" />
+      <FilePathData Path="fabao/fb (26).png" />
+      <FilePathData Path="fabao/fb (27).png" />
+      <FilePathData Path="fabao/fb (28).png" />
+      <FilePathData Path="fabao/fb (29).png" />
+      <FilePathData Path="fabao/fb (3).png" />
+      <FilePathData Path="fabao/fb (30).png" />
+      <FilePathData Path="fabao/fb (31).png" />
+      <FilePathData Path="fabao/fb (32).png" />
+      <FilePathData Path="fabao/fb (33).png" />
+      <FilePathData Path="fabao/fb (34).png" />
+      <FilePathData Path="fabao/fb (35).png" />
+      <FilePathData Path="fabao/fb (36).png" />
+      <FilePathData Path="fabao/fb (37).png" />
+      <FilePathData Path="fabao/fb (38).png" />
+      <FilePathData Path="fabao/fb (39).png" />
+      <FilePathData Path="fabao/fb (4).png" />
+      <FilePathData Path="fabao/fb (40).png" />
+      <FilePathData Path="fabao/fb (41).png" />
+      <FilePathData Path="fabao/fb (42).png" />
+      <FilePathData Path="fabao/fb (43).png" />
+      <FilePathData Path="fabao/fb (44).png" />
+      <FilePathData Path="fabao/fb (45).png" />
+      <FilePathData Path="fabao/fb (46).png" />
+      <FilePathData Path="fabao/fb (47).png" />
+      <FilePathData Path="fabao/fb (48).png" />
+      <FilePathData Path="fabao/fb (49).png" />
+      <FilePathData Path="fabao/fb (5).png" />
+      <FilePathData Path="fabao/fb (50).png" />
+      <FilePathData Path="fabao/fb (51).png" />
+      <FilePathData Path="fabao/fb (52).png" />
+      <FilePathData Path="fabao/fb (53).png" />
+      <FilePathData Path="fabao/fb (54).png" />
+      <FilePathData Path="fabao/fb (55).png" />
+      <FilePathData Path="fabao/fb (56).png" />
+      <FilePathData Path="fabao/fb (57).png" />
+      <FilePathData Path="fabao/fb (58).png" />
+      <FilePathData Path="fabao/fb (59).png" />
+      <FilePathData Path="fabao/fb (6).png" />
+      <FilePathData Path="fabao/fb (60).png" />
+      <FilePathData Path="fabao/fb (61).png" />
+      <FilePathData Path="fabao/fb (7).png" />
+      <FilePathData Path="fabao/fb (8).png" />
+      <FilePathData Path="fabao/fb (9).png" />
+      <FilePathData Path="fabao/fb (2).png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

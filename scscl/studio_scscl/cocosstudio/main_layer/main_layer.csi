@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="main_layer" Type="Plist" ID="3df53cbd-6670-4d8a-8d7c-7aa7d3df854a" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="main_layer/firpiont_btn_gray.png" />
+      <FilePathData Path="main_layer/firpiont_btn_normal.png" />
+      <FilePathData Path="main_layer/bt_record_1.png" />
+      <FilePathData Path="main_layer/bt_record_2.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="loadbar" Type="Plist" ID="68c9b9d4-cb2b-4767-a884-9715f03502e0" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="main_layer/loadbar/au_progress_bar.png" />
+      <FilePathData Path="main_layer/loadbar/au_progress_bg.png" />
+      <FilePathData Path="main_layer/loadbar/dailycrazy_progressbar.png" />
+      <FilePathData Path="main_layer/loadbar/dailycrazy_progressbar2.png" />
+      <FilePathData Path="main_layer/loadbar/equipped_strengthen_modify02.png" />
+      <FilePathData Path="main_layer/loadbar/equipped_strengthen_modify03.png" />
+      <FilePathData Path="main_layer/loadbar/mainui_hp_bar.png" />
+      <FilePathData Path="main_layer/loadbar/monsterlife2.png" />
+      <FilePathData Path="main_layer/loadbar/monsterlife3.png" />
+      <FilePathData Path="main_layer/loadbar/newshuxing_1.png" />
+      <FilePathData Path="main_layer/loadbar/newshuxing_2.png" />
+      <FilePathData Path="main_layer/loadbar/newshuxing_3.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

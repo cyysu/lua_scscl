@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>main_layer/loadbar/au_progress_bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,90},{449,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{449,24}</string>
+			</dict>
+			<key>main_layer/loadbar/au_progress_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{493,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,43}</string>
+			</dict>
+			<key>main_layer/loadbar/dailycrazy_progressbar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,139},{493,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{493,16}</string>
+			</dict>
+			<key>main_layer/loadbar/dailycrazy_progressbar2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,157},{429,16}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{429,16}</string>
+			</dict>
+			<key>main_layer/loadbar/equipped_strengthen_modify02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,46},{435,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{435,42}</string>
+			</dict>
+			<key>main_layer/loadbar/equipped_strengthen_modify03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,116},{399,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{399,21}</string>
+			</dict>
+			<key>main_layer/loadbar/mainui_hp_bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,175},{364,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{364,18}</string>
+			</dict>
+			<key>main_layer/loadbar/monsterlife2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{402,116},{100,6}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,6}</string>
+			</dict>
+			<key>main_layer/loadbar/monsterlife3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{402,124},{100,6}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,6}</string>
+			</dict>
+			<key>main_layer/loadbar/newshuxing_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,195},{195,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{195,24}</string>
+			</dict>
+			<key>main_layer/loadbar/newshuxing_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,221},{194,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,24}</string>
+			</dict>
+			<key>main_layer/loadbar/newshuxing_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{197,221},{194,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{194,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>loadbar.png</string>
+			<key>realTextureFileName</key>
+			<string>loadbar.png</string>
+			<key>size</key>
+			<string>{503,246}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>503</integer>
+			<key>height</key>
+			<integer>246</integer>
+		</dict>
+	</dict>
+</plist>

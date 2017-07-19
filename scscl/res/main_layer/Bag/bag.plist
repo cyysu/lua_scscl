@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>main_layer/Bag/bt_add.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{450,1},{27,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{27,27}</string>
+			</dict>
+			<key>main_layer/Bag/bt_min.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{479,1},{28,8}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,8}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_0_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,401},{247,88}}</string>
+				<key>offset</key>
+				<string>{-13,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_0_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{282,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_1_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,401},{247,88}}</string>
+				<key>offset</key>
+				<string>{-13,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_1_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,101},{282,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_2_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,491},{247,88}}</string>
+				<key>offset</key>
+				<string>{-13,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_2_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,201},{282,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_3_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,491},{247,88}}</string>
+				<key>offset</key>
+				<string>{-13,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/cbt_3_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,301},{282,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,98}</string>
+			</dict>
+			<key>main_layer/Bag/frame_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{285,171},{141,141}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{143,143}</string>
+			</dict>
+			<key>main_layer/Bag/frame_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{285,1},{163,168}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{163,168}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>bag.png</string>
+			<key>realTextureFileName</key>
+			<string>bag.png</string>
+			<key>size</key>
+			<string>{508,580}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>508</integer>
+			<key>height</key>
+			<integer>580</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,22 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="xf" Type="Plist" ID="9eeab371-be9e-47e3-97e8-468e9ad6b187" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="xf_icon/xifa_non.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_1.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_2.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_3.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_4.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_5.png" />
+      <FilePathData Path="xf_icon/xinfa_lv_6.png" />
+      <FilePathData Path="xf_icon/xf_1.png" />
+      <FilePathData Path="xf_icon/xf_2.png" />
+      <FilePathData Path="xf_icon/xf_3.png" />
+      <FilePathData Path="xf_icon/xf_4.png" />
+      <FilePathData Path="xf_icon/xf_5.png" />
+      <FilePathData Path="xf_icon/xf_6.png" />
+      <FilePathData Path="xf_icon/xf_0.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

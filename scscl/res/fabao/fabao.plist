@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fabao/fb (1).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (10).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{178,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (11).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{262,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (12).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{346,0},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (13).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,84},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (14).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,94},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (15).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{178,84},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (16).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{262,84},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (17).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{346,84},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (18).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,168},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (19).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,178},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (20).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,168},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (21).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,168},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (22).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,168},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (23).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,222},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (24).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,252},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (25).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,262},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (26).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,252},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (27).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,252},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (28).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,252},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (29).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,306},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (3).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,336},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (30).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,346},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (31).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,336},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (32).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,336},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (33).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,336},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (34).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,390},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (35).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,420},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (36).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,430},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (37).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,420},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (38).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,420},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (39).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,420},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (4).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,474},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (40).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,504},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (41).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,514},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (42).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,504},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (43).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,504},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (44).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,504},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (45).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,558},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (46).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,588},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (47).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,598},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (48).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,588},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (49).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,588},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (5).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,588},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (50).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,642},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (51).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,0},{74,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,74}</string>
+			</dict>
+			<key>fabao/fb (52).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,74},{74,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,74}</string>
+			</dict>
+			<key>fabao/fb (53).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{430,148},{74,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,74}</string>
+			</dict>
+			<key>fabao/fb (54).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,810},{74,74}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,74}</string>
+			</dict>
+			<key>fabao/fb (55).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,672},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (56).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,682},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (57).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,672},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (58).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,672},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (59).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>fabao/fb (6).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,672},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (60).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{420,726},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (61).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,756},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (7).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,766},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (8).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,756},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (9).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{252,756},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>fabao/fb (2).png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,756},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>fabao.png</string>
+			<key>realTextureFileName</key>
+			<string>fabao.png</string>
+			<key>size</key>
+			<string>{504,884}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>504</integer>
+			<key>height</key>
+			<integer>884</integer>
+		</dict>
+	</dict>
+</plist>

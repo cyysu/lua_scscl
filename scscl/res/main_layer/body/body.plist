@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>main_layer/body/body_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,0},{94,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,93}</string>
+			</dict>
+			<key>main_layer/body/body_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{188,0},{94,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,93}</string>
+			</dict>
+			<key>main_layer/body/body_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>main_layer/body/body_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,94},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>main_layer/body/body_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,188},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>main_layer/body/body_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,282},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+			<key>main_layer/body/body_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,376},{94,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{94,94}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>body.png</string>
+			<key>realTextureFileName</key>
+			<string>body.png</string>
+			<key>size</key>
+			<string>{282,470}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>282</integer>
+			<key>height</key>
+			<integer>470</integer>
+		</dict>
+	</dict>
+</plist>

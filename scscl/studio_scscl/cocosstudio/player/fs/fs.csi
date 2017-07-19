@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="fs" Type="Plist" ID="1d5269bb-3625-474e-b645-4306585e42c1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="player/fs/player4_1.png" />
+      <FilePathData Path="player/fs/player4_2.png" />
+      <FilePathData Path="player/fs/player4_3.png" />
+      <FilePathData Path="player/fs/player4_4.png" />
+      <FilePathData Path="player/fs/player4_5.png" />
+      <FilePathData Path="player/fs/player4_6.png" />
+      <FilePathData Path="player/fs/profession_fs_1.png" />
+      <FilePathData Path="player/fs/profession_fs_2.png" />
+      <FilePathData Path="player/fs/profession_fs_3.png" />
+      <FilePathData Path="player/fs/profession_fs_4.png" />
+      <FilePathData Path="player/fs/profession_fs_5.png" />
+      <FilePathData Path="player/fs/profession_fs_6.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

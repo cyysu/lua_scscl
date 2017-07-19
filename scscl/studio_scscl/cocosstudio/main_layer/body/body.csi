@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="body" Type="Plist" ID="b25378a5-d96e-4381-8f4b-74699f5250c0" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="main_layer/body/body_1.png" />
+      <FilePathData Path="main_layer/body/body_2.png" />
+      <FilePathData Path="main_layer/body/body_3.png" />
+      <FilePathData Path="main_layer/body/body_4.png" />
+      <FilePathData Path="main_layer/body/body_5.png" />
+      <FilePathData Path="main_layer/body/body_6.png" />
+      <FilePathData Path="main_layer/body/body_7.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

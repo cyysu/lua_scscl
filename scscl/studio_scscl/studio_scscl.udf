@@ -28,16 +28,5 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="MainScene.csd" />
-          <FilePathData Path="csb/Xiulian.csd" />
-          <FilePathData Path="csb/DaoFaListUi.csd" />
-          <FilePathData Path="csb/DaoFaItem.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="csb/DaoFaItem.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>
